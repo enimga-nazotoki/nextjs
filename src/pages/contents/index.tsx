@@ -8,7 +8,7 @@ export default function About() {
         <main className={`${styles.main}`}>
             <div className={styles.cards}>
             <div className={styles.card_contents}>
-                <img src="REALIZE_tokyo.jpg" height={225} width={400}/>
+                <img src="REALIZE_tokyo.jpg" height={225} width={400} style={{ width: '100%', height: 'auto' }}/>
                 <div className={styles.card_contents_textbox}>
                     <div className={styles.card_contents_overviewtext}>
                     2023/01/14-15
@@ -22,7 +22,7 @@ export default function About() {
                 </div>
             </div>
             <div className={styles.card_contents}>
-                <img src="REALIZE_shirasagi.jpg" height={225} width={400}/>    
+                <img src="REALIZE_shirasagi.jpg" height={225} width={400} style={{ width: '100%', height: 'auto' }}/>    
                 <div className={styles.card_contents_textbox}>
                     <div className={styles.card_contents_overviewtext}>
                     2022/11/04-06
@@ -36,7 +36,7 @@ export default function About() {
                 </div>
             </div>
             <div className={styles.card_contents}>
-                <img src="REALIZE_shirasagi.jpg" height={225} width={400}/>    
+                <img src="REALIZE_shirasagi.jpg" height={225} width={400} style={{ width: '100%', height: 'auto' }}/>    
                 <div className={styles.card_contents_textbox}>
                     <div className={styles.card_contents_overviewtext}>
                     2022/10/08-11/06
@@ -50,7 +50,7 @@ export default function About() {
                 </div>
             </div>
             <div className={styles.card_contents}>
-                <img src="REALIZE_shirasagi.jpg" height={225} width={400}/>    
+                <img src="REALIZE_shirasagi.jpg" height={225} width={400} style={{ width: '100%', height: 'auto' }}/>    
                 <div className={styles.card_contents_textbox}>
                     <div className={styles.card_contents_overviewtext}>
                     2022/10/08-11/06
@@ -64,7 +64,7 @@ export default function About() {
                 </div>
             </div>
             <div className={styles.card_contents}>
-                <img src="REALIZE_shirasagi.jpg" height={225} width={400}/>    
+                <img src="REALIZE_shirasagi.jpg" height={225} width={400} style={{ width: '100%', height: 'auto' }}/>    
                 <div className={styles.card_contents_textbox}>
                     <div className={styles.card_contents_overviewtext}>
                     2022/08/20
@@ -78,7 +78,7 @@ export default function About() {
                 </div>
             </div>
             <div className={styles.card_contents}>
-                <img src="REALIZE_shirasagi.jpg" height={225} width={400}/>    
+                <img src="REALIZE_shirasagi.jpg" height={225} width={400} style={{ width: '100%', height: 'auto' }}/>    
                 <div className={styles.card_contents_textbox}>
                     <div className={styles.card_contents_overviewtext}>
                     2022/03/26-27
@@ -92,7 +92,7 @@ export default function About() {
                 </div>
             </div>
             <div className={styles.card_contents}>
-                <img src="REALIZE_shirasagi.jpg" height={225} width={400}/>    
+                <img src="REALIZE_shirasagi.jpg" height={225} width={400} style={{ width: '100%', height: 'auto' }}/>    
                 <div className={styles.card_contents_textbox}>
                     <div className={styles.card_contents_overviewtext}>
                     2021/11/28

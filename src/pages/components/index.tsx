@@ -10,14 +10,12 @@ import styles from "./index.module.css";
 
 // publicフォルダの画像
 const images = [
-  "/ボムボムパニック.png",
-  "/ボムボムパニック.png",
-  "/ボムボムパニック.png",
-  "/ボムボムパニック.png",
-  "/ボムボムパニック.png",
-  "/ボムボムパニック.png",
-  "/ボムボムパニック.png",
-  "/ボムボムパニック.png",
+  "/ボムボムパニック改.jpg",
+  "/ボムボムパニック改.jpg",
+  "/ボムボムパニック改.jpg",
+  "/ボムボムパニック改.jpg",
+  "/ボムボムパニック改.jpg",
+  "/ボムボムパニック改.jpg",
 ];
 
 export default function BasicSlider() {
@@ -35,6 +33,8 @@ export default function BasicSlider() {
       navigation // ナビゲーション（左右の矢印）
       pagination={{
         clickable: true,
+        bulletClass: `swiper-pagination-bullet ${styles.custom_bullet}`, 
+        bulletActiveClass: `swiper-pagination-bullet-active ${styles.custom_bullet_active}`,
       }} // ページネーション, クリックで対象のスライドに切り替わる
       className={styles.slideWrapper}
     >
@@ -42,8 +42,8 @@ export default function BasicSlider() {
         <SwiperSlide key={index}>
           <Image
             src={src}
-            width={300}
-            height={169}
+            width={1920}
+            height={1080}
             alt="Slider Image"
             sizes="(min-width: 1024px) 100vw, 60vw"
             className={styles.slideImage}
