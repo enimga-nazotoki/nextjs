@@ -111,6 +111,14 @@ a {
   font-size: 18px;
 }
 
+.for_pc {
+  display: block;
+}
+
+.for_sp {
+  display: none;
+}
+
 header {
     display: flex;
     justify-content: space-around;
