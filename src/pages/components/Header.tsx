@@ -5,6 +5,7 @@ import Link from "next/link";
 import { useState } from "react";
 import styles from '@/styles/Home.module.css'
 
+
 const Header = () => {
     <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
     const [isOpen, setOpen] = useState<boolean>(false);
@@ -17,6 +18,7 @@ const Header = () => {
 
     return <header>
         <div>
+            <a href="/">
             <Image
                 src="/logo透過.png"
                 alt="Vercel Logo"
@@ -24,18 +26,22 @@ const Header = () => {
                 height={50}
                 style={{ width: '80%', height: 'auto' }}
             />
+            </a>
         </div>
         <div className={styles.for_pc}>
-            <a href="http://localhost:3000/">Home</a>
-        </div>
-        <div className={styles.for_pc}>
+            <div className={styles.allura_regular}>
             <a href="about/">About</a>
+            </div>
         </div>
         <div className={styles.for_pc}>
+            <div className={styles.allura_regular}>
             <a href="contents/">Contents</a>
+            </div>
         </div>
         <div className={styles.for_pc}>
+            <div className={styles.allura_regular}>
             <a href="contact">Contact</a>
+            </div>
         </div>
         <div className={styles.for_pc}>
             <a href="https://twitter.com/omunazotoki" target="_blank">
