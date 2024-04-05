@@ -18,7 +18,7 @@ const Header = () => {
 
     return <header>
         <div>
-            <a href="/">
+            <a href="./">
             <Image
                 src="/logo透過.png"
                 alt="Vercel Logo"
