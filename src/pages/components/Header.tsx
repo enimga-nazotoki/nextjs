@@ -17,7 +17,6 @@ const Header = () => {
     };
 
     return <header>
-        <div>
             <Link href="/">
             <Image
                 src="/logo透過.png"
@@ -27,7 +26,6 @@ const Header = () => {
                 style={{ width: '80%', height: 'auto' }}
             />
             </Link>
-        </div>
         <div className={styles.for_pc}>
             <div className={styles.allura_regular}>
             <a href="about/">About</a>
