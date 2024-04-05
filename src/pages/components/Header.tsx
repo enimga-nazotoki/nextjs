@@ -17,7 +17,9 @@ const Header = () => {
     };
 
     return <header>
+        <div>
             <Link href="/">
+            <span>
             <Image
                 src="/logo透過.png"
                 alt="Vercel Logo"
@@ -25,7 +27,9 @@ const Header = () => {
                 height={50}
                 style={{ width: '80%', height: 'auto' }}
             />
+            </span>
             </Link>
+        </div>
         <div className={styles.for_pc}>
             <div className={styles.allura_regular}>
             <a href="about/">About</a>
