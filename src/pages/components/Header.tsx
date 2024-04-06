@@ -43,10 +43,6 @@ const Header = () => {
             <a href="contact">Contact</a>
             </div>
         </div>
-        <div className={styles.for_pc}>
-            <a href="https://twitter.com/omunazotoki" target="_blank">
-            <Image src="/logo-white.png" alt="X" width={40} height={40} style={{ width: '80%', height: 'auto' }}/></a>
-        </div>
       <nav
         className={
           isOpen

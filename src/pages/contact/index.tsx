@@ -1,5 +1,6 @@
 import 'bootstrap/dist/css/bootstrap.min.css'
 import React, {useRef} from 'react'
+import styles from '@/styles/Home.module.css'
 
 
 export default function Contact() {
@@ -29,8 +30,17 @@ export default function Contact() {
     };
 
     return (
+        <>
+        <main className={`${styles.main}`}>
         <div className='container mt-5'>
-            <h2 className='mb-3'>Nenxt.js Gmailアプリ</h2>
+            <h2 className='mb-3'>入部希望者募集</h2>
+            <h4 className='mb-10'>
+                F-enigmaでは随時新入部員を募集しています。大阪府立大学・大阪市立大学・大阪公立大学の学生であれば、どなたでも入部できます。もちろんどのキャンパスでもOK！お気軽にご連絡ください！
+            </h4>
+            <h2 className='mb-3'>制作依頼募集</h2>
+            <h4 className='mb-10'>
+                F-enigmaでは様々な形式・媒体での謎解き制作依頼を受け付けています。具体的な内容や納期、料金についてご相談させていただきたいので、まずはご連絡ください。
+            </h4>            
             <form onSubmit={(e: React.FormEvent<HTMLFormElement>) => handleSubmit(e)}>
                 <div className='mb-3'>
                     <label htmlFor='name' className='form-label'>
@@ -55,5 +65,7 @@ export default function Contact() {
                 </button>
             </form>
         </div>
+        </main>
+        </>
     )
 }

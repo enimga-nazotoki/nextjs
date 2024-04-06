@@ -16,6 +16,7 @@ const XTimeline = () => {
   return (
    <a 
      className="twitter-timeline" 
+     data-height="700px"
      href="https://twitter.com/omunazotoki?ref_src=twsrc%5Etfw" 
      target="_blank" rel="noopener noreferrer" 
     > 

@@ -4,6 +4,7 @@ import { Inter } from 'next/font/google'
 import styles from '@/styles/Home.module.css'
 import BasicSlider from "./components/";
 import XTimeline from './components/XTimeline';
+import 'bootstrap/dist/css/bootstrap.min.css'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -19,44 +20,44 @@ export default function Home() {
         <link href="https://fonts.googleapis.com/css2?family=Allura&family=Kalam:wght@300;400;700&display=swap" rel="stylesheet" />
       </Head>
       <main className={`${styles.main} ${inter.className}`}>
-        <div className={styles.wrapper}>
-          <main>
-            <BasicSlider />
-          </main>
-        </div>
-        <div className={styles.description}>
-          <p>
-            News
-          </p>
-        </div>
+        <div className='container mt-3'>
+          <div className={styles.wrapper}>
+            <main>
+              <BasicSlider />
+            </main>
+          </div>
 
-        <div className={styles.news}>
-          <a
-            href="https://sites.google.com/view/osakabanquetestfes9"
-            className={styles.card}
-          >
-            <h4>
-              2024/02/22
-            </h4>
-            <h2>
-              2024/02/24-25 大阪最宴祭9 ボムボムパニック 再演決定
+          <div className="p-0 mb-3 mt-5 bg-primary text-white">
+            <h2 className='ml-3'>
+              News
             </h2>
-          </a>
-          <a
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className={styles.card}
-          >
-            <h4>
-              2024/02/22
-            </h4>
-            <h2>
-              2024/02/24-25 大阪最宴祭9 ボムボムパニック 再演決定
-            </h2>
-          </a>
-        </div>
+          </div>
+          <div className="d-grid gap-2 mb-5">
+            <a className="btn btn-light text-left" href="https://sites.google.com/view/osakabanquetestfes9" type="button">
+              <h4>
+                2024/02/22
+              </h4>
+              <h2>
+                大阪最宴祭9 ボムボムパニック 再演決定
+              </h2>
+            </a>
+            <a className="btn btn-light text-left" href="https://sites.google.com/view/osakabanquetestfes9" type="button">
+              <h4>
+                2024/02/22
+              </h4>
+              <h2>
+                大阪最宴祭9 ボムボムパニック 再演決定
+              </h2>
+            </a>
+          </div>
 
-        <div className={styles.for_sp}>
-            <XTimeline/>
+          <div className="p-0 mb-3 bg-primary text-white">
+            <h2 className='ml-3'>
+              X
+            </h2>
+          </div>
+          <a className="twitter-timeline" data-height="700" href="https://twitter.com/omunazotoki?ref_src=twsrc%5Etfw">Tweets by omunazotoki</a> <script async src="https://platform.twitter.com/widgets.js"></script>
+
         </div>
 
       </main>
