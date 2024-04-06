@@ -30,6 +30,17 @@ export default function Home() {
             </main>
           </div> */}
 
+          <div className="p-0 mb-3 mt-3 bg-primary text-white">
+          <div className={styles.crimson_text_regular}>
+            <h2 className='ml-3'>
+              Latest Topics
+            </h2>
+          </div>
+          </div>
+          <div className='p-1 mb-3 bg-pink-200 bg-gradient text-black'>
+            <h5>新歓用に動画を作りました！ぜひ見てみてください！</h5>
+          </div>
+
           <video className='mb-3'
             src="新歓謎2024.mp4"
             muted
