@@ -18,43 +18,74 @@ export default function Home() {
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" />
         <link href="https://fonts.googleapis.com/css2?family=Allura&family=Kalam:wght@300;400;700&display=swap" rel="stylesheet" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com"/>
+        <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap" rel="stylesheet"></link>
       </Head>
       <main className={`${styles.main} ${inter.className}`}>
         <div className='container mt-3'>
-          <div className={styles.wrapper}>
+          {/* <div className={styles.wrapper}>
             <main>
               <BasicSlider />
             </main>
-          </div>
+          </div> */}
+
+          <video className='mb-3'
+            src="新歓謎2024.mp4"
+            muted
+            style={{ height: "100%", width: "100%" }}
+            controls
+            autoPlay
+            playsInline
+          />
 
           <div className="p-0 mb-3 mt-5 bg-primary text-white">
+          <div className={styles.crimson_text_regular}>
             <h2 className='ml-3'>
               News
             </h2>
           </div>
-          <div className="d-grid gap-2 mb-5">
-            <a className="btn btn-light text-left" href="https://sites.google.com/view/osakabanquetestfes9" type="button">
-              <h4>
-                2024/02/22
-              </h4>
-              <h2>
-                大阪最宴祭9 ボムボムパニック 再演決定
-              </h2>
-            </a>
-            <a className="btn btn-light text-left" href="https://sites.google.com/view/osakabanquetestfes9" type="button">
-              <h4>
-                2024/02/22
-              </h4>
-              <h2>
-                大阪最宴祭9 ボムボムパニック 再演決定
-              </h2>
-            </a>
+          </div>
+
+          <div className="d-grid mb-5">
+            <div className='p-3 border-bottom border-text-muted bg-white text-dark'>
+              <a href='' >
+                <h6>2024.04.09</h6>
+                <h5>2024年 新歓映像解禁！</h5>
+              </a>
+            </div>
+            <div className='p-3 border-bottom border-text-muted bg-white text-dark'>
+              <a href='' >
+                <h6>2024.01.20</h6>
+                <h5>【再演】大阪最宴祭9 『ボムボムパニック』 再演決定</h5>
+              </a>
+            </div>
+            <div className='p-3 border-bottom border-text-muted bg-white text-dark'>
+              <a href='' >
+                <h6>2023.10.15</h6>
+                <h5>【新作公演】第75回白鷺祭 『ボムボムパニック』 公演決定</h5>
+              </a>
+            </div>
+            <div className='p-3 border-bottom border-text-muted bg-white text-dark'>
+              <a href='' >
+                <h6>2023.10.06</h6>
+                <h5>「さいとう・たかを劇画の世界2023」の企画「謎解きMISSION STOP THE JAMMER」のストーリー・謎制作担当</h5>
+              </a>
+            </div>
+            <div className='p-3 border-bottom border-text-muted bg-white text-dark'>
+              <a href='' >
+                <h6>2023.10.05</h6>
+                <h5>京都弁護士会 「ナゾトキ検察官の事件ファイル」ストーリー・謎制作担当</h5>
+              </a>
+            </div>
           </div>
 
           <div className="p-0 mb-3 bg-primary text-white">
+          <div className={styles.crimson_text_regular}>
             <h2 className='ml-3'>
               X
             </h2>
+          </div>
           </div>
           <a className="twitter-timeline" data-height="700" href="https://twitter.com/omunazotoki?ref_src=twsrc%5Etfw">Tweets by omunazotoki</a> <script async src="https://platform.twitter.com/widgets.js"></script>
 
