@@ -62,98 +62,6 @@
   width: var(--max-width);
 }
 
-.news {
-  display: grid;
-  max-width: 100%;
-  width: var(--max-width);  
-}
-
-.card {
-  padding: 1rem 1.2rem;
-  border-radius: var(--border-radius);
-  background: rgba(var(--card-rgb), 0);
-  border: 1px solid rgba(var(--card-border-rgb), 0);
-  transition: background 200ms, border 200ms;
-}
-
-
-.cards {
-  display: grid;
-  place-content: center;
-  place-items: center;
-  grid-template-columns: repeat(3, 1fr);
-  width: 90%;
-  gap: 10%;
-  margin-inline: auto;
-}
-.card_contents{
-  width: 100%;
-  height: auto;
-  border-radius: 8px;
-  overflow: hidden;
-  box-shadow: 0 4px 15px rgba(0,0,0,.2)
-}
-.card_contents_imgframe{
-  width: 100%;
-  height: auto;
-  padding-top: 56.25%;
-  box-sizing: border-box;
-}
-.card_contents_textbox{
-  width: 100%;
-  height: 170px;
-  padding: 20px 18px;
-  background: #fff;
-  box-sizing: border-box;
-}
-.card_contents_textbox > * + *{
-  margin-top: 1%;
-}
-.card_contents_titletext{
-  font-size: 20px;
-  font-weight: bold;
-  line-height: 125%;
-}
-.card_contents_titletext a {
-  font-size: 20px;
-  font-weight: bold;
-  line-height: 125%;
-  text-decoration: underline;
-}
-.card_contents_overviewtext{
-  font-size: 14px;
-  line-height: 150%;
-}
-.card_contents_overviewtext a {
-  font-size: 14px;
-  line-height: 150%;
-  text-decoration: underline; 
-}
-
-.cardskin{
-  overflow: hidden;
-  border-radius: 8px;
-  box-shadow: 0 4px 15px rgba(0,0,0,.2);
-}
-
-.card span {
-  display: inline-block;
-  transition: transform 200ms;
-}
-
-.card h2 {
-  font-weight: 600;
-  margin-bottom: 0.7rem;
-}
-
-.card p {
-  margin: 0;
-  opacity: 0.6;
-  font-size: 0.9rem;
-  line-height: 1.5;
-  max-width: 30ch;
-}
-
 .center {
   display: flex;
   justify-content: center;
@@ -231,7 +139,7 @@
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    padding: 6rem;
+    padding: 1rem;
     min-height: 92vh;
     background-color: #f5f7ce;
     filter: brightness();
@@ -248,14 +156,6 @@
     margin-bottom: 120px;
     max-width: 320px;
     text-align: center;
-  }
-
-  .card {
-    padding: 1rem 2.5rem;
-  }
-
-  .card h2 {
-    margin-bottom: 0.5rem;
   }
 
   .center {

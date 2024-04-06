@@ -1,110 +1,64 @@
+import 'bootstrap/dist/css/bootstrap.min.css'
+import React, {useRef} from 'react'
 import styles from '@/styles/Home.module.css'
 
-export default function About() {
+export default function Contents () {
     return (
         <>
         <main className={`${styles.main}`}>
-            <div className={styles.cards}>
-            <div className={styles.card_contents}>
-                <img src="REALIZE_tokyo.jpg" height={225} width={400} style={{ width: '100%', height: 'auto' }}/>
-                <div className={styles.card_contents_textbox}>
-                    <div className={styles.card_contents_overviewtext}>
-                    2023/01/14-15
-                    </div>
-                    <div className={styles.card_contents_titletext}>
-                    <a href="https://twitter.com/omunazotoki/status/1596111466217631744">REALIZE（東京）</a>
-                    </div>
-                    <div className={styles.card_contents_overviewtext}>
-                    <a href="https://nazonosono.com/">上方謎の園</a>と白鷺祭で実施した「REALIZE」を東京で再演
-                    </div>
-                </div>
-            </div>
-            <div className={styles.card_contents}>
-                <img src="REALIZE_shirasagi.jpg" height={225} width={400} style={{ width: '100%', height: 'auto' }}/>    
-                <div className={styles.card_contents_textbox}>
-                    <div className={styles.card_contents_overviewtext}>
-                    2022/11/04-06
-                    </div>
-                    <div className={styles.card_contents_titletext}>
-                    <a href="https://twitter.com/omunazotoki/status/1581204739605159937">REALIZE（白鷺祭）</a>
-                    </div>
-                    <div className={styles.card_contents_overviewtext}>
-                    <a href="https://nazonosono.com/">上方謎の園</a>で実施した「REALIZE」を白鷺祭にて再演
-                    </div>
-                </div>
-            </div>
-            <div className={styles.card_contents}>
-                <img src="REALIZE_shirasagi.jpg" height={225} width={400} style={{ width: '100%', height: 'auto' }}/>    
-                <div className={styles.card_contents_textbox}>
-                    <div className={styles.card_contents_overviewtext}>
-                    2022/10/08-11/06
-                    </div>
-                    <div className={styles.card_contents_titletext}>
-                    <a href="https://twitter.com/omunazotoki/status/1581204739605159937">謎解きMISSION～天空ミュージアムの謎～</a>
-                    </div>
-                    <div className={styles.card_contents_overviewtext}>
-                    <a href="https://nazonosono.com/">ゴルゴ13×堺市「さいとう・たかを劇画の世界2022」</a>にて開催された子供用謎解きイベント
-                    </div>
-                </div>
-            </div>
-            <div className={styles.card_contents}>
-                <img src="REALIZE_shirasagi.jpg" height={225} width={400} style={{ width: '100%', height: 'auto' }}/>    
-                <div className={styles.card_contents_textbox}>
-                    <div className={styles.card_contents_overviewtext}>
-                    2022/10/08-11/06
-                    </div>
-                    <div className={styles.card_contents_titletext}>
-                    <a href="https://twitter.com/omunazotoki/status/1581204739605159937">謎解きMISSION～GET BACK THE DIAMOND～</a>
-                    </div>
-                    <div className={styles.card_contents_overviewtext}>
-                    <a href="https://nazonosono.com/">ゴルゴ13×堺市「さいとう・たかを劇画の世界2022」</a>にて開催された周遊型謎解きイベント
-                    </div>
-                </div>
-            </div>
-            <div className={styles.card_contents}>
-                <img src="REALIZE_shirasagi.jpg" height={225} width={400} style={{ width: '100%', height: 'auto' }}/>    
-                <div className={styles.card_contents_textbox}>
-                    <div className={styles.card_contents_overviewtext}>
-                    2022/08/20
-                    </div>
-                    <div className={styles.card_contents_titletext}>
-                    <a href="https://twitter.com/omunazotoki/status/1581204739605159937">REALIZE</a>
-                    </div>
-                    <div className={styles.card_contents_overviewtext}>
-                    <a href="https://nazonosono.com/">上方謎の園</a>で3年ぶりの新作公演を実施
-                    </div>
-                </div>
-            </div>
-            <div className={styles.card_contents}>
-                <img src="REALIZE_shirasagi.jpg" height={225} width={400} style={{ width: '100%', height: 'auto' }}/>    
-                <div className={styles.card_contents_textbox}>
-                    <div className={styles.card_contents_overviewtext}>
-                    2022/03/26-27
-                    </div>
-                    <div className={styles.card_contents_titletext}>
-                    <a href="https://twitter.com/omunazotoki/status/1581204739605159937">KANSAI食FES</a>
-                    </div>
-                    <div className={styles.card_contents_overviewtext}>
-                    KANSAI食FESにて開催された謎解きイベント
-                    </div>
-                </div>
-            </div>
-            <div className={styles.card_contents}>
-                <img src="REALIZE_shirasagi.jpg" height={225} width={400} style={{ width: '100%', height: 'auto' }}/>    
-                <div className={styles.card_contents_textbox}>
-                    <div className={styles.card_contents_overviewtext}>
-                    2021/11/28
-                    </div>
-                    <div className={styles.card_contents_titletext}>
-                    <a href="https://twitter.com/omunazotoki/status/1581204739605159937">謎解きイベント～西島園芸団地編～隠された謎を解き明かせ</a>
-                    </div>
-                    <div className={styles.card_contents_overviewtext}>
-                    高知大学地域協働学部、まほろばクラブ南国、西島園芸団地との共同企画のイベント
-                    </div>
+        <div className='container mt-3'>
+            <div className="row row-cols-1 row-cols-md-3 g-4">
+            <div className="col">
+            <div className="shadow card h-100">
+                <img src="REALIZE_tokyo.jpg" className="card-img-top"/>
+                <div className="card-body">
+                <h5 className="card-title">2023/01/14-15</h5>
+                <a href="https://twitter.com/omunazotoki/status/1596111466217631744">
+                    <h4>REALIZE（東京）</h4>
+                </a>
+                <p className="card-text"><a href="https://nazonosono.com/">上方謎の園</a>と白鷺祭で実施した「REALIZE」を東京で再演</p>
                 </div>
             </div>
             </div>
-        </main>
-        </>
+            <div className="col">
+            <div className="shadow card h-100">
+                <img src="REALIZE_shirasagi.jpg" className="card-img-top"/>
+                <div className="card-body">
+                <h5 className="card-title">2022/11/04-06</h5>
+                <a href="https://twitter.com/omunazotoki/status/1581204739605159937">
+                    <h4>REALIZE（白鷺祭）</h4>
+                </a>
+                <p className="card-text"><a href="https://nazonosono.com/">上方謎の園</a>で実施した「REALIZE」を白鷺祭にて再演</p>
+                </div>
+            </div>
+            </div>
+            <div className="col">
+            <div className="shadow card h-100">
+                <img src="REALIZE_shirasagi.jpg" className="card-img-top"/>
+                <div className="card-body">
+                <h5 className="card-title">2022/10/08-11/06</h5>
+                <a href="https://twitter.com/omunazotoki/status/1581204739605159937">
+                    <h4>謎解きMISSION～天空ミュージアムの謎～</h4>
+                </a>
+                <p className="card-text"><a href="https://nazonosono.com/">ゴルゴ13×堺市「さいとう・たかを劇画の世界2022」</a>にて開催された子供用謎解きイベント</p>
+                </div>
+            </div>
+            </div>
+            <div className="col">
+            <div className="shadow card h-100">
+                <img src="REALIZE_shirasagi.jpg" className="card-img-top"/>
+                <div className="card-body">
+                <h5 className="card-title">2022/10/08-11/06</h5>
+                <a href="https://twitter.com/omunazotoki/status/1581204739605159937">
+                    <h4>謎解きMISSION～GET BACK THE DIAMOND～</h4>
+                </a>
+                <p className="card-text"><a href="https://nazonosono.com/">ゴルゴ13×堺市「さいとう・たかを劇画の世界2022」</a>にて開催された周遊型謎解きイベント</p>
+                </div>
+            </div>
+            </div>
+            </div>
+      </div>
+      </main>
+      </>
     )
 }
