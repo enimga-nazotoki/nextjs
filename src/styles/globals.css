@@ -79,7 +79,10 @@
   margin: 0;
 }
 
-html,
+html {
+  scroll-behavior: smooth;
+} 
+
 body {
   max-width: 100vw;
   overflow-x: hidden;
@@ -111,16 +114,79 @@ a {
   font-size: 18px;
 }
 
+.for_pc {
+  display: block;
+}
+
+.for_sp {
+  display: none;
+}
+
 header {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: lightblue;
+    background-color: rgb(60, 160, 247);
     color: black;
     position: fixed;
     width: 100%;
     height: 8vh;
     z-index: 10;
+}
+
+footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: transparent;
+  color: black;
+  width: 100%;
+  height: 3vh;
+}
+
+header div{
+  display: flex;
+  margin-right: 2%;
+}
+
+header div a {
+  text-decoration: none;
+  font-size: 230%;
+  color: black;
+  transition: all 0.2s;
+}
+
+header div:first-child{
+  margin-left: 5%;
+  margin-right: auto;
+}
+
+header div:last-child{
+  margin-right: 5%;
+}
+
+div a {
+  font-size: 14px;
+  line-height: 150%;
+  color: black;
+  text-decoration: underline;
+}
+
+p a {
+  font-size: 14px;
+  line-height: 150%;
+  text-decoration: underline;
+}
+
+q a {
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 125%;
+  text-decoration: underline;
+}
+
+div a:hover{
+  color: red;  
 }
 
 header .logo {
@@ -129,18 +195,6 @@ header .logo {
   text-indent: -150px
 }
 
-nav ul li {
-  list-style: none;
-  display: inline-block;
-  margin-right: 25px;
-}
-
-nav ul li a {
-  text-decoration: none;
-  font-size: 30px;
-  color: black;
-  transition: all 0.2s;
-}
-nav ul li a:hover {
-  color: red;
-}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;

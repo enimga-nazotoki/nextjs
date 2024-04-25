@@ -1,11 +1,31 @@
 .slideWrapper {
-    max-width: 13%;
+    max-width: 100%;
   }
   
   .slideImage {
-    aspect-ratio: 1/1;
-    object-fit: cover;
+    width: 100%;
+    height: auto;
   }
+
+  .swiper-button-next{
+    border-bottom: 20px solid transparent;
+    border-left: 30px solid #ff4500;
+    border-top: 20px solid transparent;
+  }
+
+  .custom_bullet {
+    background: white;
+    opacity: 0.5;
+    width: 3%;
+    padding-top: 3%
+  } 
+
+  .custom_bullet_active {
+    background: white;
+    opacity: 1;
+    width: 3%;
+    padding-top: 3%
+} 
   
   @media screen and (min-width: 768px) {
     .slideImage {
