@@ -1,5 +1,4 @@
 import 'bootstrap/dist/css/bootstrap.min.css'
-import styles from '@/styles/Home.module.css'
 import { Inter } from 'next/font/google'
 import Head from 'next/head'
 
@@ -23,7 +22,7 @@ const LikeB = {
 
 const Bcg = {
   alignItems: 'center',
-  padding: '1rem',
+  padding: '1.5rem',
   minHeight: '92vh',
   backgroundColor: '#f5f7ce',
   filter: 'brightness(100%)', // brightness() の引数を指定しています
