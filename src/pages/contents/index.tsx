@@ -47,7 +47,7 @@ export default function Contents () {
                 </div>
                 <div className="col">
                 <div className="shadow card h-100">
-                    <img src="Hicity.jpg" className="card-img-top"/>
+                    <img src="HIcity.jpg" className="card-img-top"/>
                     <div className="card-body">
                     <div className="card-text mb-2">2023.11.17-19</div>
                     <a href="https://haneda-innovation-city-gop.com/event/438">
@@ -179,7 +179,7 @@ export default function Contents () {
                 </div>
                 <div className="col">
                 <div className="shadow card h-100">
-                    <img src="REALIZE_sono.jpg" className="card-img-top"/>
+                    <img src="Realize_sono.jpg" className="card-img-top"/>
                     <div className="card-body">
                     <div className="card-text mb-2">2022.08.20</div>
                     <a href="https://www.google.com/url?q=https%3A%2F%2Ftwitter.com%2Fomunazotoki%2Fstatus%2F1560657584993890304&sa=D&sntz=1&usg=AOvVaw22kEVAb4eUKrD4HWSypcbJ">
