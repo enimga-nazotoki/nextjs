@@ -1,16 +1,11 @@
 import 'bootstrap/dist/css/bootstrap.min.css'
 import { Inter } from 'next/font/google'
 import Head from 'next/head'
+import styles from '@/styles/Home.module.css'
 
 import React from "react";
 
 const inter = Inter({ subsets: ['latin'] })
-
-const sty = {
-    backgroundColor: '#F0D400',
-    color: 'white',
-    padding: '10px'
-};
 
 const LikeB = {
   backgroundColor: '#94C9F7',
@@ -19,18 +14,6 @@ const LikeB = {
   borderRadius: '0.4rem 0.4rem 0.0rem 0.0rem',
   cursor: 'pointer',
 };
-
-const Bcg = {
-  alignItems: 'center',
-  padding: '1.5rem',
-  minHeight: '92vh',
-  backgroundColor: '#f5f7ce',
-  filter: 'brightness(100%)', // brightness() の引数を指定しています
-  backgroundImage: 'url(./鍵の輪郭.png)',
-  backgroundSize: '10%',
-};
-
-
 
 
 export default function About() {
@@ -47,7 +30,7 @@ export default function About() {
             <link rel="preconnect" href="https://fonts.gstatic.com"/>
             <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap" rel="stylesheet"></link>
             </Head>
-            <main style={Bcg}>
+            <main className={`${styles.main} ${inter.className}`}>
               <div style={LikeB}>
                 <h2>〇活動内容</h2>
               </div>
