@@ -25,9 +25,9 @@ export default function Contents () {
             <div className="row row-cols-1 row-cols-md-3 g-4">
                 <div className="col">
                 <div className="shadow card h-100">
-                    <img src="Shinkan2024_MV.jpg" className="card-img-top"/>
+                    <img src="Shinkan2024_MV.png" className="card-img-top"/>
                     <div className="card-body">
-                    <div className="card-text mb-2">2023.04.10</div>
+                    <div className="card-text mb-2">2024.04.10</div>
                     <a href="https://twitter.com/omunazotoki/status/1778030166616264745">
                         <h4>新歓映像謎</h4></a>
                     <div className="card-text">新歓用に映像謎を作成</div>
@@ -38,7 +38,7 @@ export default function Contents () {
                 <div className="shadow card h-100">
                     <img src="BombPanic.jpg" className="card-img-top"/>
                     <div className="card-body">
-                    <div className="card-text mb-2">2023.02.23-25</div>
+                    <div className="card-text mb-2">2024.02.23-25</div>
                     <a href="https://twitter.com/banquetest_fes/status/1748691852222435740">
                         <h4>ボムボムパニック（再演）</h4></a>
                     <div className="card-text">学祭「白鷺祭」で行われた「ボムボムパニック」を<a href="https://sites.google.com/view/osakabanquetestfes9">大阪最宴祭９</a>にて再演</div>
@@ -49,7 +49,7 @@ export default function Contents () {
                 <div className="shadow card h-100">
                     <img src="Hicity.jpg" className="card-img-top"/>
                     <div className="card-body">
-                    <div className="card-text mb-2">2022.11.17-19</div>
+                    <div className="card-text mb-2">2023.11.17-19</div>
                     <a href="https://haneda-innovation-city-gop.com/event/438">
                         <h4>羽田謎解きストーリー 天空の橋の謎を解け！</h4></a>
                     <div className="card-text">羽田イノベーションシティ"Grand Opening Event ∅"にて開催された周遊型謎解きイベント</div>
@@ -60,7 +60,7 @@ export default function Contents () {
                 <div className="shadow card h-100">
                     <img src="BombPanic.jpg" className="card-img-top"/>
                     <div className="card-body">
-                    <div className="card-text mb-2">2022.11.04-05</div>
+                    <div className="card-text mb-2">2023.11.04-05</div>
                     <a href="https://twitter.com/omunazotoki/status/1713396779641610707">
                         <h4>ボムボムパニック</h4></a>
                     <div className="card-text">学祭「白鷺祭」で開催された新作謎解き公演</div>
@@ -69,9 +69,9 @@ export default function Contents () {
                 </div>
                 <div className="col">
                 <div className="shadow card h-100">
-                    <img src="Golgo2023_Easy.jpg" className="card-img-top"/>
+                    <img src="Golgo2023_Easy.png" className="card-img-top"/>
                     <div className="card-body">
-                    <div className="card-text mb-2">2022.10.08-11.06</div>
+                    <div className="card-text mb-2">2023.10.08-11.06</div>
                     <a href="https://sakai-gekiga.com/tour">
                         <h4>謎解きMISSION 21階に潜む謎!!</h4></a>
                     <div className="card-text">ゴルゴ13×堺市「さいとう・たかを劇画の世界2023」にて開催された子供用謎解きイベント</div>
@@ -80,9 +80,9 @@ export default function Contents () {
                 </div>
                 <div className="col">
                 <div className="shadow card h-100">
-                    <img src="Golgo2023_Hard.jpg" className="card-img-top"/>
+                    <img src="Golgo2023_Hard.png" className="card-img-top"/>
                     <div className="card-body">
-                    <div className="card-text mb-2">2022.10.08-11.06</div>
+                    <div className="card-text mb-2">2023.10.08-11.06</div>
                     <a href="https://sakai-gekiga.com/tour">
                         <h4>謎解きMISSION STOP THE "JAMMER"</h4></a>
                     <div className="card-text">ゴルゴ13×堺市「さいとう・たかを劇画の世界2023」にて開催された周遊型謎解きイベント</div>
