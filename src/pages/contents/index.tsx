@@ -52,7 +52,7 @@ export default function Contents () {
                     <div className="card-text mb-2">2023.11.17-19</div>
                     <a href="https://haneda-innovation-city-gop.com/event/438">
                         <h4>羽田謎解きストーリー 天空の橋の謎を解け！</h4></a>
-                    <div className="card-text">羽田イノベーションシティ"Grand Opening Event ∅"にて開催された周遊型謎解きイベント</div>
+                    <div className="card-text">羽田イノベーションシティ&quot;Grand Opening Event ∅&quot;にて開催された周遊型謎解きイベント</div>
                     </div>
                 </div>
                 </div>
@@ -84,7 +84,7 @@ export default function Contents () {
                     <div className="card-body">
                     <div className="card-text mb-2">2023.10.08-11.06</div>
                     <a href="https://sakai-gekiga.com/tour">
-                        <h4>謎解きMISSION STOP THE "JAMMER"</h4></a>
+                        <h4>謎解きMISSION STOP THE &quot;JAMMER&quot;</h4></a>
                     <div className="card-text">ゴルゴ13×堺市「さいとう・たかを劇画の世界2023」にて開催された周遊型謎解きイベント</div>
                     </div>
                 </div>
