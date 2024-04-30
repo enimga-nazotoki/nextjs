@@ -64,7 +64,6 @@ export default function About() {
                   </h5>
                   <img src="部室地図.png" alt="map" width="400" height="300" />    
                 </div>
-    
                 <div style={LikeB}>
                   <h2>〇部員募集について</h2>
                 </div>       
