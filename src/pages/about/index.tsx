@@ -31,6 +31,7 @@ export default function About() {
             <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap" rel="stylesheet"></link>
             </Head>
             <main className={`${styles.main} ${inter.className}`}>
+              <div className='container mt-3'>
               <div style={LikeB}>
                 <h2>〇活動内容</h2>
               </div>
@@ -87,7 +88,7 @@ export default function About() {
                 </h5> 
               
               </div>
-
+              </div>
 
             </main>
         </>

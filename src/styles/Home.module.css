@@ -143,8 +143,8 @@
   .main {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
+    /* justify-content: space-between; */
+    /* align-items: center; */
     padding: 1rem;
     min-height: 92vh;
     background-color: #f5f7ce;
