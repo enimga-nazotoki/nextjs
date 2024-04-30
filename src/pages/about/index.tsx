@@ -29,6 +29,7 @@ export default function About() {
             <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap" rel="stylesheet"></link>
             </Head>
             <main className={`${styles.main}`}>
+<<<<<<< HEAD
               <div className='container mt-1 mx-0'>
                 <div style={LikeB}>
                   <h2>〇活動内容</h2>
@@ -64,6 +65,43 @@ export default function About() {
                   </h5>
                   <img src="部室地図.png" alt="map" width="400" height="300" />    
                 </div>
+=======
+              <div className='container mt-3'>
+              <div style={LikeB}>
+                <h2>〇活動内容</h2>
+              </div>
+              <div className="p-3 mb-10 bg-white text-dark-emphasis">
+                <h3>
+                謎解きを
+                <mark>「遊ぶ」</mark><br></br>
+                </h3>
+                <h5>
+                  ▶謎解きイベントに遊びに行ったり、持ち寄った謎解きで遊ぶ
+                </h5>     
+                <br></br>
+                <h3>
+                謎解きを
+                <mark>「作る」</mark><br></br>
+                </h3>
+                <h5>
+                  ▶学祭で謎解きイベントを実施したり、企業とコラボして外部に向けた謎解きの制作を行う
+                </h5> 
+                <br></br>
+                <h3>
+                  ◎定期活動
+                </h3>
+                <h5>
+                  週に一回、中百舌鳥キャンパス部室(もしくはDiscord)で例会を行う。そこで謎解きを遊んだり制作をする。<br></br>
+                  例会に加えて、必要に応じて不定期で集まる。
+                </h5> 
+                <br></br>
+                <h5>
+                  ▼部室の場所▼<br></br>
+                  以下の地図にある部室棟の2F
+                </h5>
+                <img src="部室地図.png" alt="map" width="400" height="300" />    
+              </div>
+>>>>>>> ebf2806a2b7043ebbf2f0dcbe7bbbc1dc8ef962c
 
                 <div style={LikeB}>
                   <h2>〇部員募集について</h2>
