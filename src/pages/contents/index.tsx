@@ -128,7 +128,7 @@ export default function Contents () {
                     <div className="card-body">
                     <div className="card-text mb-2">2023.04.12,17,21</div>
                     <a href="https://t.co/ciI8jnIZ1R">
-                        <h4>新歓用公演"色々な謎"</h4></a>
+                        <h4>新歓用公演&quot;色々な謎&quot;</h4></a>
                     <div className="card-text">新歓向けに過去の公演をリメイク</div>
                     </div>
                 </div>
