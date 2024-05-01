@@ -12,7 +12,6 @@ const Allura400 = Allura({
 
 
 const Header = () => {
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
     const [isOpen, setOpen] = useState<boolean>(false);
     const handleMenuOpen = () => {
       setOpen(!isOpen);
@@ -59,7 +58,7 @@ const Header = () => {
         <ul
           className={
             isOpen
-              ? "flex h-screen justify-center items-center flex-col gap-5 text-xl"
+              ? "flex h-screen flex-col gap-6 text-xl mt-4"
               : "block md:flex md:gap-8"
           }
         >
