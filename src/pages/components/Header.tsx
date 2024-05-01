@@ -4,6 +4,12 @@ import Image from 'next/image'
 import Link from "next/link";
 import { useState } from "react";
 import styles from '@/styles/Home.module.css'
+import { Allura } from "next/font/google"; 
+
+const Allura400 = Allura({
+  weight: '400',
+  preload: false,
+})
 
 
 const Header = () => {
@@ -29,7 +35,7 @@ const Header = () => {
             </a>
         </div>
         <div className={styles.for_pc}>
-            <div className={styles.allura_regular}>
+            <div className={Allura400.className}>
             <a href="about/">About</a>
             </div>
         </div>

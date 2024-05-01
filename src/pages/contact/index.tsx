@@ -1,9 +1,7 @@
 import 'bootstrap/dist/css/bootstrap.min.css'
 import styles from '@/styles/Home.module.css'
-import { Inter } from 'next/font/google'
 import Head from 'next/head'
 
-const inter = Inter({ subsets: ['latin'] })
 
 export default function Contact() {
   return (
@@ -19,7 +17,7 @@ export default function Contact() {
       <link rel="preconnect" href="https://fonts.gstatic.com"/>
       <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap" rel="stylesheet"></link>
       </Head>
-      <main className={`${styles.main} ${inter.className}`}>
+      <main className={`${styles.main}`}>
       <div className='container mt-3'>
           <div className="p-3 mb-2 bg-white text-dark">
                 <h2 className='mb-3'>入部希望者募集</h2>
