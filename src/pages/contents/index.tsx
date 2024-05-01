@@ -47,12 +47,12 @@ export default function Contents () {
                 </div>
                 <div className="col">
                 <div className="shadow card h-100">
-                    <img src="Hicity.jpg" className="card-img-top"/>
+                    <img src="HIcity.jpg" className="card-img-top"/>
                     <div className="card-body">
                     <div className="card-text mb-2">2023.11.17-19</div>
                     <a href="https://haneda-innovation-city-gop.com/event/438">
                         <h4>羽田謎解きストーリー 天空の橋の謎を解け！</h4></a>
-                    <div className="card-text">羽田イノベーションシティ"Grand Opening Event ∅"にて開催された周遊型謎解きイベント</div>
+                    <div className="card-text">羽田イノベーションシティ&quot;Grand Opening Event ∅&quot;にて開催された周遊型謎解きイベント</div>
                     </div>
                 </div>
                 </div>
@@ -84,7 +84,7 @@ export default function Contents () {
                     <div className="card-body">
                     <div className="card-text mb-2">2023.10.08-11.06</div>
                     <a href="https://sakai-gekiga.com/tour">
-                        <h4>謎解きMISSION STOP THE "JAMMER"</h4></a>
+                        <h4>謎解きMISSION STOP THE &quot;JAMMER&quot;</h4></a>
                     <div className="card-text">ゴルゴ13×堺市「さいとう・たかを劇画の世界2023」にて開催された周遊型謎解きイベント</div>
                     </div>
                 </div>
@@ -128,7 +128,7 @@ export default function Contents () {
                     <div className="card-body">
                     <div className="card-text mb-2">2023.04.12,17,21</div>
                     <a href="https://t.co/ciI8jnIZ1R">
-                        <h4>新歓用公演"色々な謎"</h4></a>
+                        <h4>新歓用公演&quot;色々な謎&quot;</h4></a>
                     <div className="card-text">新歓向けに過去の公演をリメイク</div>
                     </div>
                 </div>
@@ -179,7 +179,7 @@ export default function Contents () {
                 </div>
                 <div className="col">
                 <div className="shadow card h-100">
-                    <img src="REALIZE_sono.jpg" className="card-img-top"/>
+                    <img src="Realize_sono.jpg" className="card-img-top"/>
                     <div className="card-body">
                     <div className="card-text mb-2">2022.08.20</div>
                     <a href="https://www.google.com/url?q=https%3A%2F%2Ftwitter.com%2Fomunazotoki%2Fstatus%2F1560657584993890304&sa=D&sntz=1&usg=AOvVaw22kEVAb4eUKrD4HWSypcbJ">

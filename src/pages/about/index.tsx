@@ -10,7 +10,6 @@ const LikeB = {
   color: 'white',
   padding: '0.8rem',
   borderRadius: '0.4rem 0.4rem 0.0rem 0.0rem',
-  cursor: 'pointer',
 };
 
 
@@ -95,7 +94,3 @@ export default function About() {
 }
 
  
-function LikeButton() {
-    const count = 999;
-    return <span style={LikeB}>♥ {count}</span>;
-}
