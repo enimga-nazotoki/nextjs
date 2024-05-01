@@ -1,4 +1,3 @@
-"use clinent";
 import React from "react";
 import Image from 'next/image'
 import Link from "next/link";
@@ -40,22 +39,23 @@ const Header = () => {
             </div>
         </div>
         <div className={styles.for_pc}>
-            <div className={styles.allura_regular}>
+            <div className={Allura400.className}>
             <a href="contents/">Contents</a>
             </div>
         </div>
         <div className={styles.for_pc}>
-            <div className={styles.allura_regular}>
+            <div className={Allura400.className}>
             <a href="contact">Contact</a>
             </div>
         </div>
-      <nav
-        className={
-          isOpen
-            ? "z-40 bg-blue-100 fixed top-[8vh] right-0 bottom-0 left-0 h-screen flex flex-col"
-            : "fixed right-[-100%] md:right-4"
-        }
-      >
+
+        <nav
+          className={
+            isOpen
+              ? "z-40 bg-blue-100 fixed top-[8vh] right-0 bottom-0 left-0 h-screen flex flex-col"
+              : "fixed right-[-100%] md:right-4"
+          }
+        >
         <ul
           className={
             isOpen
@@ -64,26 +64,31 @@ const Header = () => {
           }
         >
           <li className={styles.for_sp}>
+            <div className={Allura400.className}>
             <Link onClick={handleMenuClose} href="/about">
               About
             </Link>
+            </div>
           </li>
           <li className={styles.for_sp}>
+            <div className={Allura400.className}>
             <Link onClick={handleMenuClose} href="/contents">
               Contents
             </Link>
+            </div>
           </li>
           <li className={styles.for_sp}>
+            <div className={Allura400.className}>
             <Link onClick={handleMenuClose} href="/contact">
               Contact
             </Link>
+            </div>
           </li>
         </ul>
-      </nav>
-      <button className={"z-50 space-y-2 md:hidden"} onClick={handleMenuOpen}>
+        </nav>
+        <button className={"z-50 space-y-2 md:hidden"} onClick={handleMenuOpen}>
         <span
           className={
-            /* ×についての記述 */
             isOpen
               ? "block w-8 h-0.5 mr-4 bg-gray-600 translate-y-2.5 rotate-45 duration-300"
               : "block w-8 h-0.5 mr-4 bg-gray-600 duration-300"
@@ -101,7 +106,7 @@ const Header = () => {
               : "block w-8 h-0.5 bg-gray-600 duration-300"
           }
         />
-      </button>
+        </button>
     </header>
 };
 

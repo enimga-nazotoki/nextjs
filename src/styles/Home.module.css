@@ -99,18 +99,12 @@
   display: flex;
 }
 
-.allura_regular {
-  font-family: "Allura", cursive;
-  font-weight: 400;
-  font-style: normal;
+.LikeB {
+  background-color: #94C9F7;
+  color: white;
+  padding: 0.8rem;
+  border-radius: 0.4rem 0.4rem 0.0rem 0.0rem;
 }
-
-.crimson_text_regular {
-  font-family: "Crimson Text", serif;
-  font-weight: 400;
-  font-style: normal;
-}
-
 
 /* Enable hover only on non-touch devices */
 @media (hover: hover) and (pointer: fine) {
@@ -143,8 +137,6 @@
   .main {
     display: flex;
     flex-direction: column;
-    /* justify-content: space-between; */
-    /* align-items: center; */
     padding: 1rem;
     min-height: 92vh;
     background-color: #f5f7ce;
