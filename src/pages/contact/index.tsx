@@ -14,7 +14,7 @@ export default function Contact() {
       <main className={`${styles.main}`}>
       <div className='container mt-1'>
           <div className={styles.LikeB}>
-                <h2 className='mb-3'>〇入部希望者募集</h2>
+                <h2>〇入部希望者募集</h2>
           </div>
           <div className="p-3 mb-3 bg-white text-dark">
                 <h4>
@@ -22,7 +22,7 @@ export default function Contact() {
                 </h4>
           </div>
           <div className={styles.LikeB}>
-                <h2 className='mb-3'>〇制作依頼募集</h2>
+                <h2>〇制作依頼募集</h2>
           </div>
           <div className="p-3 mb-10 bg-white text-dark">
                 <h4>
